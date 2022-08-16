@@ -29,7 +29,7 @@ export class CareerService {
         'qualifications',
       ],
       where: {
-        id: id,
+        id: Number(id),
       },
     });
   }
